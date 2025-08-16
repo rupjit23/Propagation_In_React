@@ -13,6 +13,7 @@ function App() {
         e.preventDefault();
           const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
           setbgcolor(randomColor);
+          console.log("Color Change");
     }
 
     
